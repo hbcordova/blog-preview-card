@@ -56,6 +56,7 @@
 
       html {
         box-sizing: border-box;
+        font-size: 62.5%;
       }
       *,
       *:before,
@@ -64,34 +65,34 @@
       }
 
       .card {
-        width: 384px;
+        width: 38.4rem;
         background-color: var(--custom-white);
-        border: 1px solid black;
-        border-radius: 20px;
-        padding: 24px;
+        border: 0.1rem solid black;
+        border-radius: 2rem;
+        padding: 2.4rem;
 
         display: flex;
         flex-direction: column;
-        row-gap: 24px;
-        box-shadow: 8px 8px 0 black;
+        row-gap: 2.4rem;
+        box-shadow: 0.8rem 0.8rem 0 black;
       }
 
       .card__image {
-        height: 200px;
+        height: 20rem;
         object-fit: cover;
-        border-radius: 10px;
+        border-radius: 1rem;
       }
 
       .badget {
         width: fit-content;
         background-color: var(--custom-yellow);
-        padding: 4px 12px;
-        border-radius: 4px;
+        padding: 0.4rem 1.2rem;
+        border-radius: 0.4rem;
       }
 
       .badget__text {
         color: var(--gray-950);
-        font-size: 14px;
+        font-size: 1.4rem;
         font-weight: 800;
         line-height: 1.5;
         margin: 0;
@@ -100,12 +101,12 @@
       .card__content {
         display: flex;
         flex-direction: column;
-        row-gap: 12px;
+        row-gap: 1.2rem;
       }
 
       .card__content-subtitle {
         color: var(--gray-950);
-        font-size: 14px;
+        font-size: 1.4rem;
         font-weight: 500;
         line-height: 1.5;
         margin: 0;
@@ -113,7 +114,7 @@
 
       .card__content-title {
         color: var(--gray-950);
-        font-size: 24px;
+        font-size: 2.4rem;
         font-weight: 800;
         line-height: 1.5;
         margin: 0;
@@ -126,7 +127,7 @@
 
       .card__content-description {
         color: var(--gray-500);
-        font-size: 16px;
+        font-size: 1.6rem;
         font-weight: 500;
         line-height: 1.5;
         margin: 0;
@@ -135,18 +136,18 @@
       .card__author {
         display: flex;
         align-items: center;
-        column-gap: 12px;
+        column-gap: 1.2rem;
       }
 
       .card__author-avatar {
-        width: 32px;
-        height: 32px;
+        width: 3.2rem;
+        height: 3.2rem;
         object-fit: cover;
       }
 
       .card__author-info {
         color: var(--gray-950);
-        font-size: 14px;
+        font-size: 1.4rem;
         font-weight: 800;
         line-height: 1.5;
         margin: 0;
@@ -154,7 +155,7 @@
     </style>
   </head>
   <body>
-    <main role="main" class="card">
+    <main class="card">
       <img
         class="card__image"
         src="./assets//images/illustration-article.svg"
